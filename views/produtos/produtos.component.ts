@@ -7,6 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProdutosComponent implements OnInit {
 
+  valor: number = 0;
+
+  incrementa(){
+    this.valor++;
+    alert ("Acrescentou mais um produto !");
+
+  }
+
+  decrementa(){
+    this.valor--;
+    alert ("Diminuiu um produto !");
+
+  }
+
   constructor() { }
 
   ngOnInit(): void {

@@ -12,6 +12,7 @@ import { LancamentosComponent } from './views/lancamentos/lancamentos.component'
 import { PcgamerComponent } from './views/pcgamer/pcgamer.component';
 import { ProdutosComponent } from './views/produtos/produtos.component';
 import { AlojaComponent } from './views/aloja/aloja.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { AlojaComponent } from './views/aloja/aloja.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
